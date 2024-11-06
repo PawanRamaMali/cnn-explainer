@@ -64,15 +64,12 @@
     line-height: 1.6;
   }
 
-  #description small {
-    font-size: 12px;
-  }
 
   #description ol li img {
     vertical-align: middle;
   }
 
-  #description .video-link {
+  #description {
     color: #3273DC;
     cursor: pointer;
     font-weight: normal;
@@ -86,17 +83,6 @@
       margin-bottom: 15px;
   }
     
-  #description a:hover, 
-  #description .video-link:hover {
-    text-decoration: underline;
-  }
-
-  .figure, .video {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 </style>
 
 <body>
