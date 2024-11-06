@@ -6,9 +6,6 @@ An interactive visualization system designed to help non-experts learn about Con
 [![arxiv badge](https://img.shields.io/badge/arXiv-2004.15004-red)](http://arxiv.org/abs/2004.15004)
 [![DOI:10.1109/TVCG.2020.3030418](https://img.shields.io/badge/DOI-10.1109/TVCG.2020.3030418-blue)](https://doi.org/10.1109/TVCG.2020.3030418)
 
-<a href="https://youtu.be/HnWIHWFbuUQ" target="_blank"><img src="https://i.imgur.com/sCsudVg.png" style="max-width:100%;"></a>
-
-For more information, check out our manuscript:
 
 [**CNN Explainer: Learning Convolutional Neural Networks with Interactive Visualization**](https://arxiv.org/abs/2004.15004).
 Wang, Zijie J., Robert Turko, Omar Shaikh, Haekyu Park, Nilaksh Das, Fred Hohman, Minsuk Kahng, and Duen Horng Chau.
@@ -19,15 +16,6 @@ Wang, Zijie J., Robert Turko, Omar Shaikh, Haekyu Park, Nilaksh Das, Fred Hohman
 For a live demo, visit: http://poloclub.github.io/cnn-explainer/
 
 ## Running Locally
-
-Clone or download this repository:
-
-```bash
-git clone git@github.com:poloclub/cnn-explainer.git
-
-# use degit if you don't want to download commit histories
-degit poloclub/cnn-explainer
-```
 
 Install the dependencies:
 
