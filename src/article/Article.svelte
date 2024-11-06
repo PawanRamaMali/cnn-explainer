@@ -227,45 +227,6 @@
       <li><strong>Learn layer functions</strong> by clicking <img class="icon is-rounded" src="PUBLIC_URL/assets/figures/info_button.png" alt="info icon"/> from the <em>Interactive Formula View</em> to read layer details from the article.</li>
     </ol> 
 
-    <h2>Video Tutorial</h2>
-    <ul>
-      <li class="video-link" on:click={currentPlayer.play(0)}>
-        CNN Explainer Introduction
-        <small>(0:00-0:22)</small>
-      </li>
-      <li class="video-link" on:click={currentPlayer.play(27)}>
-        <em>Overview</em>
-        <small>(0:27-0:37)</small>
-      </li>
-      <li class="video-link" on:click={currentPlayer.play(37)}>
-        Convolutional <em>Elastic Explanation View</em>
-        <small>(0:37-0:46)</small>
-      </li>
-      <li class="video-link" on:click={currentPlayer.play(46)}>
-        Convolutional, ReLU, and Pooling <em>Interactive Formula Views</em>
-        <small>(0:46-1:21)</small>
-      </li>
-      <li class="video-link" on:click={currentPlayer.play(82)}>
-        Flatten <em>Elastic Explanation View</em>
-        <small>(1:22-1:41)</small>
-      </li>
-      <li class="video-link" on:click={currentPlayer.play(101)}>
-        Softmax <em>Interactive Formula View</em>
-        <small>(1:41-2:02)</small>
-      </li>
-      <li class="video-link" on:click={currentPlayer.play(126)}>
-        Engaging Learning Experience: Understanding Classification
-        <small>(2:06-2:28)</small>
-      </li>
-      <li class="video-link" on:click={currentPlayer.play(149)}>
-        Interactive Tutorial Article
-        <small>(2:29-2:54)</small>
-      </li>
-    </ul>
-    <div class="video">
-      <Youtube videoId="HnWIHWFbuUQ" playerId="demo_video" bind:this={currentPlayer}/>
-    </div>
-
     <h2>How is CNN Explainer implemented?</h2>
     <p>
       CNN Explainer uses <a href="https://js.tensorflow.org/"><em>TensorFlow.js</em></a>, an in-browser GPU-accelerated deep learning library to load the pretrained model for visualization.  The entire interactive system is written in Javascript using <a href="https://svelte.dev/"><em>Svelte</em></a> as a framework and <a href="https://d3js.org/"><em>D3.js</em></a> for visualizations. You only need a web browser to get started learning CNNs today!
